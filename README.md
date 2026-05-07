@@ -1,0 +1,2 @@
+# CEL100-UFJF
+Repositório para a disciplina CEL100-2026.1-A - PROCESSAMENTO DE SINAIS I

@@ -6,7 +6,7 @@
 
 ## Questão 1: Caracterização do Sinal de Áudio
 
-A primeira etapa consistiu na extração dos parâmetros de digitalização do arquivo de áudio `forcewithyou.wav`. Os metadados obtidos são fundamentais para a correta interpretação temporal do sinal.
+A primeira etapa consistiu na extração dos parâmetros de digitalização do arquivo de áudio `forcewithyou.wav`.
 
 | Parâmetro | Valor |
 | --- | --- |
@@ -50,7 +50,7 @@ O comprimento da sequência resultante confirma a teoria de sistemas LIT, onde $
 
 ### (c) Análise Auditiva (Passa-Baixas)
 
-A escuta do sinal filtrado $y_{LP}[n]$ revelou uma perda significativa de componentes de alta frequência. O áudio apresenta um timbre **abafado**, característico da atenuação dos agudos. Adicionalmente, notou-se uma leve redução na percepção de volume, comum em filtros que realizam a média de energia do sinal.
+A escuta do sinal filtrado $y_{LP}[n]$ revelou uma perda significativa de componentes de alta frequência. O áudio apresenta um timbre **abafado**, característico da atenuação dos agudos. Adicionalmente, notou-se uma leve redução na percepção de volume.
 
 ---
 
@@ -77,4 +77,4 @@ O comprimento da saída permanece idêntico ao caso anterior ($N=22085$), porém
 
 #### Análise Auditiva (Passa-Altas)
 
-Diferente do filtro anterior, o resultado é um áudio extremamente **agudo e metálico**. As frequências fundamentais da voz (graves) foram eliminadas, restando apenas os componentes sibilantes e ruídos de alta frequência. A amplitude percebida é consideravelmente menor devido à menor concentração de energia nas altas frequências do sinal de fala original.
+Diferente do filtro anterior, o resultado é um áudio mais agudo. As frequências fundamentais da voz (graves) foram eliminadas. A amplitude percebida é consideravelmente menor devido à menor concentração de energia nas altas frequências do sinal de fala original.
